@@ -1,2 +1,4 @@
-﻿  database.cc
+﻿  database-main.cpp
+  database.cc
+  Generating Code...
   book store.vcxproj -> C:\SecondYearSivan\SQL\final project\book store\x64\Debug\book store.exe

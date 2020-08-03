@@ -67,7 +67,7 @@ int main(int argc, char* argv[])
                 << "* 6) Has a customer ever split a book purchase for multiple shipments?                                    *\n"
                 << "* 7) What is the amount of shipments made by Xpress in a particular month                                 *\n"
                 << "* 8) The total money transferred to the store account via the Bit app per month                           *\n"
-                << "* 9) Transactions made during the last year with a larger profit than the average transaction profit     *\n"
+                << "* 9) Transactions made during the last year with a larger profit than the average transaction profit      *\n"
                 << "* 10) Several shipments have been made during the last 12 months through each company                     *\n"
                 << "* 11) View shipments that included 2 different editions of the same book                                  *\n"
                 << "* 12) View customers who have not made a purchase in the last two years                                   *\n"

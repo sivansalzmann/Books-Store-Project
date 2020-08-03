@@ -114,8 +114,6 @@ char* MySQL::stringChar(string a)
 
     strcpy(char_array, a.c_str());
 
-    for (int i = 0; i < n; i++)
-        cout << char_array[i];
     return char_array;
 }
 
