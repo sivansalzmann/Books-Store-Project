@@ -62,21 +62,19 @@ int main(int argc, char* argv[])
                 << "* 1) Show the oldest customer                                                                             *\n"
                 << "* 2) Show all orders                                                                                      *\n"
                 << "* 3) List of the 3 customers who have purchased the most books ever                                       *\n"
-                << "* 4) Customer Purchase History                                                                            *\n"
-                << "* 5) Customer order history                                                                               *\n"
-                << "* 6) Shipping cost calculation                                                                            *\n"
-                << "* 7) Has a customer ever split a book purchase for multiple shipments?                                    *\n"
-                << "* 8) What is the amount of shipments made by Xpress in a particular month                                 *\n"
-                << "* 9) The total money transferred to the store account via the Bit app per month                           *\n"
-                << "* 10) Transactions made during the last year with a larger profit than the average transaction profit     *\n"
-                << "* 11) Several shipments have been made during the last 12 months through each company                     *\n"
-                << "* 12) View shipments that included 2 different editions of the same book                                  *\n"
-                << "* 13) View customers who have not made a purchase in the last two years                                   *\n"
-                << "* 14) How many books did the store purchase between dates and how much did it pay for them                *\n"
-                << "* 15) The store profits from sales in a particular month                                                  *\n"
-                << "* 16) Average monthly transactions                                                                        *\n"
-                << "* 17) The gross salary of an employee in a particular month                                               *\n"
-                << "* 18) Sells with the most trades in a given month                                                         *\n"
+                << "* 4) Customer order history                                                                               *\n"
+                << "* 5) Shipping cost calculation                                                                            *\n"
+                << "* 6) Has a customer ever split a book purchase for multiple shipments?                                    *\n"
+                << "* 7) What is the amount of shipments made by Xpress in a particular month                                 *\n"
+                << "* 8) The total money transferred to the store account via the Bit app per month                           *\n"
+                << "* 9) Transactions made during the last year with a larger profit than the average transaction profit     *\n"
+                << "* 10) Several shipments have been made during the last 12 months through each company                     *\n"
+                << "* 11) View shipments that included 2 different editions of the same book                                  *\n"
+                << "* 12) View customers who have not made a purchase in the last two years                                   *\n"
+                << "* 13) How many books did the store purchase between dates and how much did it pay for them                *\n"
+                << "* 14) The store profits from sales in a particular month                                                  *\n"
+                << "* 15) Average monthly transactions                                                                        *\n"
+                << "* 16) The gross salary of an employee in a particular month                                               *\n"
                 << "* 99) End the program                                                                                     *\n"
                 << "***********************************************************************************************************\n"
                 << "Your Choice is: ";
@@ -95,49 +93,43 @@ int main(int argc, char* argv[])
                 Mysql.question7();
                 break;
             case 4:
-                Mysql.question8();
-                break;
-            case 5:
                 Mysql.question9();
                 break;
-            case 6:
+            case 5:
                 Mysql.question11();
                 break;
-            case 7:
+            case 6:
                 Mysql.question12();
                 break;
-            case 8:
+            case 7:
                 Mysql.question14();
                 break;
-            case 9:
+            case 8:
                 Mysql.question15();
                 break;
-            case 10:
+            case 9:
                 Mysql.question16();
                 break;
-            case 11:
+            case 10:
                 Mysql.question17();
                 break;
-            case 12:
+            case 11:
                 Mysql.question18();
                 break;
-            case 13:
+            case 12:
                 Mysql.question19();
                 break;
-            case 14:
+            case 13:
                 Mysql.question22();
                 break;
-            case 15:
+            case 14:
                 Mysql.question23();
                 break;
-            case 16:
+            case 15:
                 Mysql.question24();
                 break;
-            case 17:
+            case 16:
                 Mysql.question25();
-                break;
-            case 18:
-                Mysql.question18();
                 break;
             case 99:
                 continue;
@@ -163,12 +155,13 @@ int main(int argc, char* argv[])
                 << "* Please choose one of the following:                                                                     *\n"
                 << "* 1) Check if book In Stock                                                                               *\n"
                 << "* 2) Show the oldest book in the supply                                                                   *\n"
-                << "* 3) How many copies of book X                                                                            *\n"
+                << "* 3) How many copies of book X sold by the store                                                                       *\n"
                 << "* 4) Who is the most read writer between the dates X and Y                                                *\n"
                 << "* 5) Who is the author with the largest number of translations currently in stock                         *\n"
                 << "* 6) What is the status of a particular shipment                                                          *\n"
                 << "* 7) Customers who placed orders and did not pick up in the last 14 days                                  *\n"
                 << "* 8) Number of books in the warehouse on a monthly basis                                                  *\n"
+                << "* 9) Orders history by customer name                                                                      *\n"
                 << "* 99) End the program                                                                                     *\n"
                 << "***********************************************************************************************************\n"
                 << "Your Choice is: ";
@@ -198,6 +191,9 @@ int main(int argc, char* argv[])
                 break;
             case 8:
                 Mysql.question21();
+                break;
+            case 9:
+                Mysql.question10();
                 break;
             case 99:
                 continue;

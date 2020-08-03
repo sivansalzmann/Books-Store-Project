@@ -124,10 +124,8 @@ void MySQL::question1()
 {
     string first = "SELECT DISTINCT supply_location from book inner join supply on book.supply_id = supply.supply_id and book_title ='";
     string last = "' where supply.supply_location = 'store' or supply.supply_location; ";
-    //string input;
     char input[250];
     cout << "Which book do you want to search in the supply" << endl;
-    //cin >> input;
     cin.ignore();
     cin.getline(input, 250);
     first = first + input + last;
