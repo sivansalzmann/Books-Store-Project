@@ -1,0 +1,4 @@
+C:\SecondYearSivan\SQL\book store\x64\Debug\book store.exe
+C:\SecondYearSivan\SQL\book store\x64\Debug\book store.pdb
+C:\SecondYearSivan\SQL\final project\book store\x64\Debug\book store.exe
+C:\SecondYearSivan\SQL\final project\book store\x64\Debug\book store.pdb
